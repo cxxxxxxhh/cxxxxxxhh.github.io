@@ -16,7 +16,7 @@ themeToggle?.addEventListener('click', () => {
 menuToggle?.addEventListener('click', () => {
   const isOpen = body.classList.toggle('menu-open');
   menuToggle.setAttribute('aria-expanded', String(isOpen));
-  menuToggle.setAttribute('aria-label', isOpen ? '关闭菜单' : '打开菜单');
+  menuToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
   mobileMenu.setAttribute('aria-hidden', String(!isOpen));
 });
 
@@ -44,7 +44,7 @@ copyButton?.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(copyButton.dataset.email);
     const oldText = copyButton.textContent;
-    copyButton.textContent = '已复制 ✓';
+    copyButton.textContent = 'Copied ✓';
     setTimeout(() => { copyButton.textContent = oldText; }, 1800);
   } catch {
     copyButton.textContent = copyButton.dataset.email;

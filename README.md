@@ -1,24 +1,24 @@
 # Personal Portfolio
 
-一个无需构建工具的个人作品集网站，包含项目、个人介绍、经历、联系方式和可打印简历。
+A lightweight, responsive academic portfolio for Congxin He. It includes research projects, publications, education, experience, contact details, and a printable online CV.
 
-## 本地预览
+## Local preview
 
-直接打开 `index.html`，或在当前目录运行：
+Open `index.html` directly, or run:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-然后访问 <http://localhost:8000>。
+Then visit <http://localhost:8000>.
 
-## 替换成你的内容
+## Structure
 
-1. 在 `index.html` 中更新个人介绍、研究项目与联系方式。
-2. 替换项目名称、介绍、技术栈和链接。
-3. 在 `resume.html` 中填写真实的工作经历和教育背景。
-4. 如需真人照片，可将头像放入项目目录，并替换 `.portrait-placeholder` 区域。
+- `index.html` — main portfolio
+- `resume.html` — printable online CV
+- `styles.css` and `resume.css` — page styling
+- `script.js` — theme, navigation, filtering, and copy interactions
 
-## 部署
+## Deployment
 
-整个目录可以直接部署到 GitHub Pages、Vercel、Netlify 或任意静态网站服务。
+The site is deployed through GitHub Pages at <https://cxxxxxxhh.github.io>.
