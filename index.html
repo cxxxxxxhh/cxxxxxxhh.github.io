@@ -110,70 +110,33 @@
           <p>Starting from financial questions, I use data, models, and code to reach testable conclusions.</p>
         </div>
 
-        <div class="filter-row reveal" role="group" aria-label="Filter research projects">
-          <button class="filter active" type="button" data-filter="all">All <span>04</span></button>
-          <button class="filter" type="button" data-filter="web">Pricing models <span>02</span></button>
-          <button class="filter" type="button" data-filter="data">Quant / ML <span>01</span></button>
-          <button class="filter" type="button" data-filter="tool">Reinforcement learning <span>01</span></button>
-        </div>
-
-        <div class="projects-grid">
-          <article class="project-card project-featured reveal" data-category="data">
-            <div class="project-art art-coral">
-              <div class="dashboard-mock">
-                <div class="mock-sidebar"><i></i><i></i><i></i><i></i></div>
-                <div class="mock-main">
-                  <div class="mock-title"></div><div class="mock-stat"><b>84%</b><span>+12.4%</span></div>
-                  <div class="mock-chart"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-                  <div class="mock-lines"><i></i><i></i><i></i></div>
-                </div>
-              </div>
-              <span class="art-label">FEATURED · 2024</span>
-            </div>
-            <div class="project-info">
-              <div><p>QUANT RESEARCH / MACHINE LEARNING</p><h3>Dynamic Multi-Factor Stock Selection</h3></div>
-              <p>Reproduced 292 price-volume factors across 5,355 A-shares and used random forests to automate factor synthesis, dimension reduction, and rolling stock selection.</p>
-              <div class="tags"><span>Python</span><span>Random Forest</span><span>Factor Model</span></div>
-              <a class="circle-link" href="https://github.com/cxxxxxxhh?tab=repositories" target="_blank" rel="noreferrer" aria-label="View project on GitHub">↗</a>
-            </div>
+        <div class="project-list">
+          <article class="project-row reveal">
+            <span class="project-number">01</span>
+            <div class="project-title"><p>QUANT RESEARCH / MACHINE LEARNING</p><h3>Dynamic Multi-Factor Stock Selection</h3></div>
+            <div class="project-summary"><p>Reproduced 292 price-volume factors across 5,355 A-shares and used random forests to automate factor synthesis, dimension reduction, and rolling stock selection.</p><div class="tags"><span>Python</span><span>Random Forest</span><span>Factor Model</span></div></div>
+            <a class="circle-link" href="https://github.com/cxxxxxxhh?tab=repositories" target="_blank" rel="noreferrer" aria-label="View dynamic multi-factor project on GitHub">↗</a>
           </article>
 
-          <article class="project-card reveal" data-category="web">
-            <div class="project-art art-blue">
-              <div class="phone-mock"><div class="phone-head"></div><div class="phone-sun">☼</div><b>18°</b><p>Hangzhou</p><div class="weather-bars"><i></i><i></i><i></i><i></i></div></div>
-              <div class="weather-chip">Feels like 20°</div>
-            </div>
-            <div class="project-info">
-              <div><p>DERIVATIVES / STOCHASTIC MODEL</p><h3>VIX Pricing with the BNS Model</h3></div>
-              <p>Studied VIX pricing under the BNS framework, exploring the dynamics of market volatility and their implications for derivatives valuation.</p>
-              <div class="tags"><span>BNS Model</span><span>VIX</span><span>Derivatives</span></div>
-              <a class="circle-link" href="#contact" aria-label="Learn about the VIX pricing research">↗</a>
-            </div>
+          <article class="project-row reveal">
+            <span class="project-number">02</span>
+            <div class="project-title"><p>FINANCIAL LLM / FINE-TUNING</p><h3>FinGPT</h3></div>
+            <div class="project-summary"><p>Fine-tuned four specialized financial language models based on Llama-2-7b-chat-hf: a market predictor, portfolio manager, sentiment analyst, and peer-company comparison model.</p><div class="tags"><span>Llama 2</span><span>Fine-Tuning</span><span>Financial AI</span></div></div>
+            <a class="circle-link" href="https://github.com/cxxxxxxhh?tab=repositories" target="_blank" rel="noreferrer" aria-label="View FinGPT project on GitHub">↗</a>
           </article>
 
-          <article class="project-card reveal" data-category="tool">
-            <div class="project-art art-yellow">
-              <div class="terminal-mock"><div><span></span><span></span><span></span></div><code>$ focus start --25m<br/><i>✓ session started</i><br/><br/>▮</code></div>
-              <div class="timer-ring"><b>25</b><small>MIN</small></div>
-            </div>
-            <div class="project-info">
-              <div><p>REINFORCEMENT LEARNING / GAME AI</p><h3>GuanDan RL Agent</h3></div>
-              <p>Trained a GuanDan card-game agent with deep Monte Carlo methods, achieving an 84% win rate in an interactive game with adjustable difficulty.</p>
-              <div class="tags"><span>Python</span><span>Deep Monte Carlo</span><span>RL</span></div>
-              <a class="circle-link" href="https://github.com/cxxxxxxhh?tab=repositories" target="_blank" rel="noreferrer" aria-label="View reinforcement learning project">↗</a>
-            </div>
+          <article class="project-row reveal">
+            <span class="project-number">03</span>
+            <div class="project-title"><p>REINFORCEMENT LEARNING / GAME AI</p><h3>GuanDan RL Agent</h3></div>
+            <div class="project-summary"><p>Trained a GuanDan card-game agent with deep Monte Carlo methods, achieving an 84% win rate in an interactive game with adjustable difficulty.</p><div class="tags"><span>Python</span><span>Deep Monte Carlo</span><span>RL</span></div></div>
+            <a class="circle-link" href="https://github.com/cxxxxxxhh?tab=repositories" target="_blank" rel="noreferrer" aria-label="View GuanDan reinforcement learning project on GitHub">↗</a>
           </article>
 
-          <article class="project-card reveal" data-category="web">
-            <div class="project-art art-green">
-              <div class="notes-mock"><aside><b>noto.</b><i></i><i></i><i></i></aside><main><small>IDEAS / 06</small><h4>Build things<br/>people need.</h4><p>Start small. Listen closely.<br/>Keep making it better.</p></main></div>
-            </div>
-            <div class="project-info">
-              <div><p>TIME SERIES / DEPENDENCE MODEL</p><h3>Time-Varying Copula Study</h3></div>
-              <p>Used an ARMA–GARCH time-varying Copula model to analyze asymmetric dependence between Hang Seng energy and financial indices around the Russia–Ukraine war.</p>
-              <div class="tags"><span>ARMA-GARCH</span><span>Copula</span><span>Time Series</span></div>
-              <a class="circle-link" href="#contact" aria-label="Learn about the time-varying Copula study">↗</a>
-            </div>
+          <article class="project-row reveal">
+            <span class="project-number">04</span>
+            <div class="project-title"><p>TIME SERIES / DEPENDENCE MODEL</p><h3>Time-Varying Copula Study</h3></div>
+            <div class="project-summary"><p>Used an ARMA–GARCH time-varying Copula model to analyze asymmetric dependence between Hang Seng energy and financial indices around the Russia–Ukraine war.</p><div class="tags"><span>ARMA–GARCH</span><span>Copula</span><span>Time Series</span></div></div>
+            <a class="circle-link" href="#contact" aria-label="Learn about the time-varying Copula study">↗</a>
           </article>
         </div>
       </section>

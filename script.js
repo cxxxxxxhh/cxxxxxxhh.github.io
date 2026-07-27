@@ -28,17 +28,6 @@ document.querySelectorAll('.mobile-menu a').forEach((link) => {
   });
 });
 
-document.querySelectorAll('.filter').forEach((button) => {
-  button.addEventListener('click', () => {
-    document.querySelector('.filter.active')?.classList.remove('active');
-    button.classList.add('active');
-    const category = button.dataset.filter;
-    document.querySelectorAll('.project-card').forEach((card) => {
-      card.classList.toggle('hidden', category !== 'all' && card.dataset.category !== category);
-    });
-  });
-});
-
 const copyButton = document.querySelector('.copy-email');
 copyButton?.addEventListener('click', async () => {
   try {
