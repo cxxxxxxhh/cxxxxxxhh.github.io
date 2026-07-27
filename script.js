@@ -17,16 +17,4 @@ document.querySelectorAll('.mobile-menu a').forEach((link) => {
   });
 });
 
-const copyButton = document.querySelector('.copy-email');
-copyButton?.addEventListener('click', async () => {
-  try {
-    await navigator.clipboard.writeText(copyButton.dataset.email);
-    const oldText = copyButton.textContent;
-    copyButton.textContent = 'Copied ✓';
-    setTimeout(() => { copyButton.textContent = oldText; }, 1800);
-  } catch {
-    copyButton.textContent = copyButton.dataset.email;
-  }
-});
-
 document.querySelector('#year').textContent = new Date().getFullYear();
