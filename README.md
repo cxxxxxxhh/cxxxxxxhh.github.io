@@ -14,7 +14,7 @@ python3 -m http.server 8000
 
 ## 替换成你的内容
 
-1. 在 `index.html` 中搜索 `Xiao He`、`hello@example.com`、`Example` 和 `href="#"`。
+1. 在 `index.html` 中更新个人介绍、研究项目与联系方式。
 2. 替换项目名称、介绍、技术栈和链接。
 3. 在 `resume.html` 中填写真实的工作经历和教育背景。
 4. 如需真人照片，可将头像放入项目目录，并替换 `.portrait-placeholder` 区域。
